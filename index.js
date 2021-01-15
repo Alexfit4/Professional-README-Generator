@@ -53,8 +53,11 @@ const questions = [
 	// },
 ];
 
+// * Convert to README file
+
 let answers = inquirer.prompt(questions);
 
 answers.then((answer) => {
-	fs.writeFileSync("filepath.txt", JSON.stringify(answer));
+	let data = generateMarkDown(answer);
+	fs.writeFileSync("README2.md", data);
 });

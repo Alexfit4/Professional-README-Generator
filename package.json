@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Alexfit4/Professional-README-Generator#readme",
   "dependencies": {
-    "inquirer": "^7.3.3"
+    "inquirer": "^7.3.3",
+    "json2md": "^1.9.2"
   }
 }
