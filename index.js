@@ -16,18 +16,23 @@ const questions = [
 		name: "email",
 		message: "What is your email address?",
 	},
-	// {
-	// 	type: "input",
-	// 	name: "title",
-	// 	message: "What is your project's name?",
-	// },
-	// {
-	// 	type: "list",
-	// 	name: "license",
-	//     message: "What kind of license should your project have?",
-	//     choices: ['MIT', 'APACHE 2.0', 'GBL 3.0', 'BDS 3', 'NONE'],
-	//     default: 'NONE'
-	// },
+	{
+		type: "input",
+		name: "title",
+		message: "What is your project's name?",
+	},
+		{
+		type: "input",
+		name: "description",
+		message: "Enter a description of your project.",
+	},
+	{
+		type: "list",
+		name: "license",
+	    message: "What kind of license should your project have?",
+	    choices: ['MIT', 'APACHE 2.0', 'GBL 3.0', 'BDS 3', 'NONE'],
+	    default: 'NONE'
+	},
 	// {
 	// 	type: "input",
 	// 	name: "installation",
