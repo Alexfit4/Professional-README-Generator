@@ -21,7 +21,8 @@ npm test
 ## Contribution <a name="contribution"></a>
 nothing
 ## Have a question? <a name="contact"></a>
-[Github Account](https://github.com/Amirs_Github)
+My [Github Account](https://github.com/Amirs_Github)
+
 Email me at alex.ashtiany@gmail.com
 ## License 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
