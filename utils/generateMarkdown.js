@@ -31,7 +31,8 @@ function generateMarkdown(answer) {
 ## Description
 ${answer.description}
 ## Table of Contents
-## Installation
+1. [Installation](#installation)
+## Installation <a name="installation"></a>
 \`\`\`bash
 ${answer.installation}
 \`\`\`
