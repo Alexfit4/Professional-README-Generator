@@ -1,5 +1,6 @@
 // Imported required packages
 const fs = require("fs");
+const { check, validationResult } = require("express-validator");
 const path = require("path");
 const inquirer = require("inquirer");
 const generateMarkDown = require("./utils/generateMarkdown");
@@ -21,7 +22,7 @@ const questions = [
 		name: "title",
 		message: "What is your project's name?",
 	},
-		{
+	{
 		type: "input",
 		name: "description",
 		message: "Enter a description of your project.",
@@ -29,33 +30,32 @@ const questions = [
 	{
 		type: "list",
 		name: "license",
-	    message: "What kind of license should your project have?",
-	    choices: ['MIT', 'APACHE 2.0', 'GBL 3.0', 'BDS 3', 'NONE'],
-	    default: 'NONE'
+		message: "What kind of license should your project have?",
+		choices: ["MIT", "APACHE 2.0", "BOOST", "GNU", "NONE"],
+		default: "NONE",
 	},
-	// {
-	// 	type: "input",
-	// 	name: "installation",
-	//     message: "What command should be run to install dependencies?",
-	//     default: 'npm i'
-	// },
-	// {
-	// 	type: "input",
-	// 	name: "test",
-	//     message: "What command should be run to run tests?",
-	//     default: 'npm test'
-	// },
-	// {
-	// 	type: "input",
-	// 	name: "usage",
-	//     message: "What does the user need to know about using the repo?"
-	// },
-	// {
-	// 	type: "input",
-	// 	name: "contributing",
-	//     message: "What does the user need to know about contributing to the repo?",
-
-	// },
+	{
+		type: "input",
+		name: "installation",
+		message: "What command should be run to install dependencies?",
+		default: "npm i",
+	},
+	{
+		type: "input",
+		name: "test",
+		message: "What command should be run to run tests?",
+		default: "npm test",
+	},
+	{
+		type: "input",
+		name: "usage",
+		message: "What does the user need to know about using the repo?",
+	},
+	{
+		type: "input",
+		name: "contributing",
+		message: "What does the user need to know about contributing to the repo?",
+	},
 ];
 
 // * Convert to README file

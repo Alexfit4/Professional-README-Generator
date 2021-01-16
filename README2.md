@@ -1,15 +1,22 @@
-# John
+# alexapp
 ## Description
-nmothing
+New stuff
 ## Table of Contents
 ## Installation
-undefined
+```bash
+npm i
+```
 ## Usage
-undefined
+nothing
 To run the tests:
 ```bash
-undefined
+npm test
 ```
+## Contribution
+nothing
+## Have a question?
+[Github Account](https://github.com/AlexFit4)
+Email me at alex.ashtiany@gmail.com
 ## License
-{[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)}
+
 
