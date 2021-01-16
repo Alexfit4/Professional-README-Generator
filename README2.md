@@ -1,6 +1,6 @@
-# Alex App
+# amir app
 ## Description
-nothng
+nothing
 ## Table of Contents
 1. [Installation](#installation)
 2. [Usage](#usage)
@@ -13,16 +13,16 @@ nothng
 npm i
 ```
 ## Usage <a name="usage"></a>
-No
+Nothing
 To run the tests: <a name="test"></a>
 ```bash
 npm test
 ```
 ## Contribution <a name="contribution"></a>
-nothing
+Nothing
 ## Have a question? <a name="contact"></a>
 [Github Account](https://github.com/Alex)
-Email me at alex.ashtiany@gmail.com
-## License <a name="license"></a>
-
+Email me at Alex.ashtiany@gmail.com
+## License 
+[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 

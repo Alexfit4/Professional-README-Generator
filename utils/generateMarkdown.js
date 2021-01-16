@@ -7,8 +7,8 @@ function renderLicenseBadge(license) {
 	if (license === "APACHE 2.0") {
 		return "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
 	}
-	if (license === "Boost") {
-		return "[![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)";
+	if (license === "Mozilla") {
+		return "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)";
 	}
 	if (license === "GNU") {
 		return "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)";
@@ -52,7 +52,7 @@ ${answer.contributing}
 ## Have a question? <a name="contact"></a>
 [Github Account](https://github.com/${answer.github})
 Email me at ${answer.email}
-## License <a name="license"></a>
+## License 
 ${renderLicenseBadge(answer.license)}
 
 `;
