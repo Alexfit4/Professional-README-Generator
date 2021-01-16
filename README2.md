@@ -1,6 +1,6 @@
-# amir app
+# Amirs_Big_App
 ## Description
-nothing
+Something big is coming!
 ## Table of Contents
 1. [Installation](#installation)
 2. [Usage](#usage)
@@ -13,16 +13,16 @@ nothing
 npm i
 ```
 ## Usage <a name="usage"></a>
-Nothing
+Nothing, email me with any questions.
 To run the tests: <a name="test"></a>
 ```bash
 npm test
 ```
 ## Contribution <a name="contribution"></a>
-Nothing
+nothing
 ## Have a question? <a name="contact"></a>
-[Github Account](https://github.com/Alex)
-Email me at Alex.ashtiany@gmail.com
+[Github Account](https://github.com/Amirs_Github)
+Email me at alex.ashtiany@gmail.com
 ## License 
-[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 

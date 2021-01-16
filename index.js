@@ -1,11 +1,9 @@
-// Imported required packages
+// * Imported required packages
 const fs = require("fs");
-const { check, validationResult } = require("express-validator");
-const path = require("path");
 const inquirer = require("inquirer");
 const generateMarkDown = require("./utils/generateMarkdown");
 
-// Array of questions for user input
+//* Array of questions for user input
 const questions = [
 	{
 		type: "input",
