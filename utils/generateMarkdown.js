@@ -14,7 +14,7 @@ function renderLicenseBadge(license) {
 		return "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)";
 	}
 
-	return ""
+	return "";
 }
 
 // TODO: Create a function that returns the license link
@@ -32,27 +32,30 @@ function generateMarkdown(answer) {
 ${answer.description}
 ## Table of Contents
 1. [Installation](#installation)
+2. [Usage](#usage)
+	1. [Testing](#test)
+3. [Contribution](#contribution)
+4. [Contact Me](#contact)
+5. [License](#license)
 ## Installation <a name="installation"></a>
 \`\`\`bash
 ${answer.installation}
 \`\`\`
-## Usage
+## Usage <a name="usage"></a>
 ${answer.usage}
-To run the tests:
+To run the tests: <a name="test"></a>
 \`\`\`bash
 ${answer.test}
 \`\`\`
-## Contribution
+## Contribution <a name="contribution"></a>
 ${answer.contributing}
-## Have a question?
+## Have a question? <a name="contact"></a>
 [Github Account](https://github.com/${answer.github})
 Email me at ${answer.email}
-## License
+## License <a name="license"></a>
 ${renderLicenseBadge(answer.license)}
 
 `;
 }
 
 module.exports = generateMarkdown;
-
-
