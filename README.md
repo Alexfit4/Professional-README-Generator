@@ -16,4 +16,4 @@ Video walkthrough of my presentation: [Video Link](https://drive.google.com/file
 
 ## Project:
 
-![Alt Text](\Assets\recording.gif)
+![](recording.gif)
