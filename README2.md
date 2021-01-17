@@ -1,6 +1,6 @@
 # Amirs_Big_App
 ## Description
-Something big is coming!
+A brand new app.
 ## Table of Contents
 1. [Installation](#installation)
 2. [Usage](#usage)
@@ -13,16 +13,15 @@ Something big is coming!
 npm i
 ```
 ## Usage <a name="usage"></a>
-Nothing, email me with any questions.
+Nothing
 To run the tests: <a name="test"></a>
 ```bash
 npm test
 ```
 ## Contribution <a name="contribution"></a>
-nothing
+Please email me with any questions.
 ## Have a question? <a name="contact"></a>
-My [Github Account](https://github.com/Amirs_Github)
-
+[Github Account](https://github.com/AmirCode)
 Email me at alex.ashtiany@gmail.com
 ## License 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
