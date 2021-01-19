@@ -9,21 +9,50 @@ const questions = [
 		type: "input",
 		name: "github",
 		message: "What is your GitHub username?",
+		validate: async function (input) {
+			console.log(input);
+			if (input.length === 0) {
+				return "Input your Github username";
+			}
+			return true;
+		},
 	},
 	{
 		type: "input",
 		name: "email",
 		message: "What is your email address?",
+		validate: async function (input) {
+			console.log(input);
+			const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+			if (!re.test(input)) {
+				return "Input a valid email";
+			}
+			return true;
+		},
 	},
 	{
 		type: "input",
 		name: "title",
 		message: "What is your project's name?",
+		validate: async function (input) {
+			console.log(input);
+			if (input.length === 0) {
+				return "Input your project's name.";
+			}
+			return true;
+		},
 	},
 	{
 		type: "input",
 		name: "description",
 		message: "Enter a description of your project.",
+		validate: async function (input) {
+			console.log(input);
+			if (input.length === 0) {
+				return "Please describe your project.";
+			}
+			return true;
+		},
 	},
 	{
 		type: "list",
@@ -48,6 +77,13 @@ const questions = [
 		type: "input",
 		name: "usage",
 		message: "What does the user need to know about using the repo?",
+		validate: async function (input) {
+			console.log(input);
+			if (input.length === 0) {
+				return "Please input something.";
+			}
+			return true;
+		},
 	},
 	{
 		type: "input",
